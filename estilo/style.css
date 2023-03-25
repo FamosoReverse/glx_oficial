@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Gamer';
+    src: url(../fonte/Gamer.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+:root{
+    --cor0: white;
+    --cor1: #002C45;
+    --cor2: black;
+    --cor3: #002A5C;
+    --cor4: #054B5C;
+    --cor5: #015657;
+    
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Gamer';
+    }
+
+    html{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header{
+        width: 100%;
+        height: 100px;
+        background-image: linear-gradient(to bottom, var(--cor1), black);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
+        
+    }
+
+    /* foto header */
+    header img{
+        width: 70px;
+        margin: auto;
+        display: block;
+        padding: 10px;
+    }
+
+    /* corpo */
+
+    main{
+        width: 90vw;
+        background-color: #002A5C;
+        margin: auto;
+        display: block;
+        color: white;
+        height: 90vh;
+    }
+     /* menu */
+    menu > ul > li > a{
+        display: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+
+
+    nav > ul > button {
+        display: flex;
+        margin-left: 5px;
+        
+        
+    }
+
+    button{
+        color: white;
+        background-color: var(--cor1);
+        padding: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        
+
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 13pt;
+        
+        
+        
+    }
+
+    nav{
+        display: inline-flex;
+        margin-left: 20px;
+        position: absolute;
+        top: 73px;
+
+    }
+
+    /* sessao */
+    section > h1{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: var(--fonte-destaque);
+        
+    } 
+
+    section > p{
+        font-family: var(--fonte-padrao);
+    }
+
+    /* css do script */
+    .dropdown {
+        position: relative;
+        display: none;
+    }
+
+    .dropdown-content a {
+        color: white;
+        background-color: var(--cor1);
+        
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        left: 55px;
+        top: 25px;
+        padding: 3px;
+        border-radius: 5px;
+
+    }
+
+    ul > li{
+        list-style: none;
+    }
+
+    
+    
+    
+
+    
