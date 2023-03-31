@@ -63,6 +63,7 @@
         display: none;
         position: absolute;
         z-index: 1;
+        
     }
 
 
@@ -81,6 +82,7 @@
         border-radius: 5px;
         cursor: pointer;
         
+        
 
     }
 
@@ -88,6 +90,7 @@
         color: white;
         text-decoration: none;
         font-size: 13pt;
+        
         
         
         
@@ -131,11 +134,13 @@
         top: 25px;
         padding: 3px;
         border-radius: 5px;
+        
 
     }
 
     ul > li{
         list-style: none;
+        
     }
 
     
