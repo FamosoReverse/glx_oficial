@@ -86,6 +86,12 @@
 
     }
 
+    nav > button > a:hover{
+        background-color: white;
+    }
+        
+    
+
     nav a {
         color: white;
         text-decoration: none;
@@ -122,6 +128,9 @@
         position: relative;
         display: none;
     }
+
+    
+    
 
     .dropdown-content a {
         color: white;
