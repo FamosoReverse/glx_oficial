@@ -48,7 +48,7 @@
 
     main{
         width: 90vw;
-        background-color: #002A5C;
+        background-color: var(--cor5);
         margin: auto;
         display: block;
         color: white;
